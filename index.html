@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Inicial</title>
+  <link rel="stylesheet" href="\public\css\styles.css">
+  <script src="\public\js\main.js" defer></script>
+</head>
+<body>
+  <h1>Bem-vindo ao Nosso Sistema</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/servicos">Serviços</a>
+    <a href="/sobre">Sobre</a>
+  </nav>
+  <h2>Contato</h2>
+  <form id="contactForm">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" required></textarea><br>
+    <button type="submit">Enviar</button>
+  </form>
+  <div id="formResult"></div>
+</body>
+</html>

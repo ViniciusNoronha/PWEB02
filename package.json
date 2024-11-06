@@ -1,0 +1,22 @@
+{
+    "name": "pweb",
+    "version": "1.0.0",
+    "description": "Um projeto simples com Node.js e Express.js para servir páginas estáticas",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [
+      "express",
+      "nodejs",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "author": "Vinicius de Noronha Silveira Lisboa",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
